@@ -13,7 +13,7 @@ public class MiniMiniMusicApp {
 
             ShortMessage first = new ShortMessage();
             first.setMessage(192, 1, 102, 0);
-            MidiEvent changeInstrument = new MidiEvent(first, 0);
+            MidiEvent changeInstrument = new MidiEvent(first, 1);
             track.add(changeInstrument);
             ShortMessage a = new ShortMessage();
             a.setMessage(144, 1, 44, 100);
